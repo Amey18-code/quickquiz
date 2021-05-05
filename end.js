@@ -27,6 +27,6 @@ saveHighScore = e => {
     highScores.splice(5);
 
     localStorage.setItem("highScores", JSON.stringify(highScores));
-    window.location.assign("quickquiz");
+    return window.location.assign('https://amey18-code.github.io/quickquiz/end.html');
 };
 
